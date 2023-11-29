@@ -12,6 +12,10 @@
     --background-color: #851414;
     --color: #cbd4c2;
   }
+
+  body {
+    background-color: #7b6b43;
+  }
   
   /*body {
     background-color: var(--background-color);
@@ -151,7 +155,6 @@
   .statement{
     text-align: center;
     margin: 15px;
-
   }
 
   /* slideshow styling */
@@ -170,6 +173,8 @@
   max-height: 1000px;
   position: relative;
   margin: auto;
+  padding-top: 50px; /*space between statement and container*/
+  /* box-shadow: 3px 3px #851414, -1em 0 .4em rgb(0, 0, 0); */
 }
 
 /* Hide the images by default */
@@ -223,7 +228,7 @@
 .numbertext {
   color: #000000;
   font-size: 15px;
-  padding: 25px 25px;
+  padding: 75px 25px;
   position: absolute;
   top: 0;
 }

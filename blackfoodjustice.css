@@ -38,7 +38,8 @@
     }
   }*/
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) { 
+
     
   }
   
@@ -152,6 +153,7 @@
     margin: 15px;
 
   }
+
   /* slideshow styling */
   /* .second{
     width: 100%;
@@ -276,7 +278,7 @@ img {
   width: 25%;
   margin: 10px;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   background-color: #851414;
 }
